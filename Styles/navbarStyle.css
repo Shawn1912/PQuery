@@ -1,3 +1,5 @@
+/* COMMENTED CODE HAS BEEN COPIED TO sidebarStyle.css */
+
 header {
   height: 60px;
   background: white;
@@ -80,7 +82,7 @@ header:hover {
     display: block;
     float: left;
     width: 20%;
-    padding: 15px 20px;
+    padding: 10px 20px;
     height: 60px;
     font-size: 150%;
     cursor: pointer;
@@ -88,7 +90,7 @@ header:hover {
 
   #logo {
     width: 60%;
-    padding-top: 20px;
+    padding-top: 15 px;
     padding-left: 0px;
     font-size: 150%;
     text-align: center;
@@ -98,8 +100,8 @@ header:hover {
   }
 
   #user img {
-    height: 32px;
-    margin-top: 14px;
+    height: 35px;
+    margin-top: 12px;
     margin-right: 20px;
   }
   #tabs {

@@ -1,0 +1,161 @@
+.feedheader{
+    height: 45px;
+}
+
+.userlogo{
+    height: 32px;
+    width:34px;
+    float: left;
+    margin-left: 10px;
+    border-radius: 100%;
+}
+
+.feedheadertext{
+    float: left;
+    color: #008AE6;
+    font-size: 14px;
+    font-family: "Balsamiq Sans", cursive;
+    width: 95%;
+    padding-left: 10px;
+    margin-bottom: -5px;
+}
+
+.feedheaderpost{
+    font-size: 13px;
+    font-family: "Balsamiq Sans", cursive;
+    color: red;
+    padding-left: 10px;
+}
+
+.text{
+    overflow-y: hidden;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 400;
+    font-style: italic;
+    height: 82px;
+    font-size: 13px;
+    width: 97%;
+    text-align: justify;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.feedfooter{
+    margin-top: 5px;
+    background-color:#008AE6;
+    height: 35px;
+    border-radius: 3px;
+}
+
+.feedfooter span{
+    font-size: 15px;
+   float: left;
+   padding:8px 0px;
+   color: white;
+   font-family: "Balsamiq Sans", cursive;
+   font-weight: bold;
+   
+}
+
+.like{
+    float: left;
+    height: 23px;
+    padding-left: 15px;
+    margin: 5px 0px;
+}
+
+.love{
+    float: left;
+    height: 23px;
+    padding-left: 15px;
+    margin: 5px 0px;
+}
+
+.comment{
+    float: left;
+    height: 23px;
+    padding-left: 15px;
+    margin: 5px 0px;
+}
+
+.readbtn{
+    background-color: #015F9E;
+    height: 70%;
+    margin-top: 5px;
+    margin-right: 10px;
+    width:60px;
+    border-radius: 3px;
+}
+
+.readbtn span{
+    font-size: 14px;
+    width: 60px;
+    height: 28px;
+    padding: 6px 2px;
+    text-align: center;
+    font-family: "Balsamiq Sans", cursive;
+}
+
+@media only screen and (max-width: 768px) {
+    .feedheader{
+        height: 35px;
+    }
+
+    .userlogo{
+        height: 23px;
+        margin-left: 5px;
+        width: 25px;
+    }
+    .feedheadertext{
+        font-size: 9px;
+        margin-bottom: -10px;
+        line-height: 9px;
+    }
+
+    .feedheaderpost{
+        font-size: 8px;
+    }
+
+    .text{
+        height: 60px;
+        font-size: 6px;
+    }
+
+    .feedfooter{
+        height: 25px;
+    }
+
+    .feedfooter span{
+        font-size: 10px;
+    }
+    .like{
+        height: 17px;
+        padding-left: 5px;
+        margin: 4px 0px;
+    }
+    
+    .love{
+        height: 17px;
+        padding-left: 6px;
+        margin: 4px 0px;
+    }
+    
+    .comment{
+        height: 17px;
+        padding-left: 6px;
+        margin: 4px 0px;
+    }
+    
+    .readbtn{
+        height: 70%;
+        margin-top: 3.5px;
+        margin-right: 6px;
+        width:50px;
+    }  
+
+    .readbtn span{
+        font-size: 11px;
+        width: 50px;
+        padding: 3px 2px;
+    }
+}
