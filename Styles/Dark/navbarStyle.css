@@ -1,13 +1,17 @@
 header {
   height: 60px;
-  background: white;
-  box-shadow: 10px 1px 10px rgba(0, 0, 0, 0.16);
+  /* background: white;
+  box-shadow: 10px 1px 10px rgba(0, 0, 0, 0.16); */
+  background-image: initial;
+  background-color: rgb(24, 26, 27);
+  box-shadow: rgba(0, 0, 0, 0.16) 10px 1px 10px;
   font-family: "Balsamiq Sans", cursive;
   transition: 0.4s ease;
 }
 
 header:hover {
-  box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.25); */
+  box-shadow: rgba(256, 256, 256, 0.1) 0px 1px 20px;
 }
 
 #hamburger {
@@ -52,7 +56,8 @@ header:hover {
 }
 
 .tab:hover {
-  background: #e8e8e8;
+  /* background: #e8e8e8; */
+  background: #374042;
 }
 
 .tab img {
